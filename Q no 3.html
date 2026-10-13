@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+            <div id = "form" style="background-color: darkgray; margin: auto; width: 35%; ">
+                <br>
+                <h2 style="color: red;"><center>Continental Hotel Reseravtion Form</center></h2>
+            
+
+                <!-- Table -->
+ <center>
+            <div id="table" style="background-color: rgb(142, 173, 236); margin: 9px ">
+
+                <style>
+                    table, th, td 
+                    {
+                    border: 1px solid black;
+                    border-collapse: separate;
+                    }
+
+                    th, td 
+                    {
+                        padding: 10px;
+                    }
+                </style>
+                <form>
+                <table >
+                    <tr >
+                        <td style="text-align: right; font-weight: bold;">Name</td>
+                        <td>
+                            <input type="text" id="name"  name="name" placeholder="Enter your name">
+                        </td>     
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-weight: bold;">eMail</td>
+                        <td> <input type="text" id="mail"  name="mail" placeholder="username@lhr.nu.edu.pk"></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-weight: bold;">Mobile Number</td>
+                        <td> <input type="text" id="mobilenumber"  name="mobilenumber" placeholder="Enter your cell number"></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-weight: bold;">Arrival Time</td>
+                        <td> <input type="text" id="time"  name="time" placeholder="Enter your arrival time"></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-weight: bold;">Departure</td>
+                        <td colspan="2"> <input type="text" id="dep1"  name="dep1" > <input type="text" id="dep2"  name="dep2" ></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-weight: bold;">Room Type</td>
+                        <td>
+                            <input type="radio" id="single" name="room">
+                            <label for="room">Single</label>
+                            
+                            <input type="radio" id="double" name="room">
+                            <label for="room">Double</label>
+                            
+                            <br>
+                            
+                            <input type="radio" id="suite" name="room">
+                            <label for="room">Presidential Suite</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-weight: bold;">Preference</td>
+                        <td>
+                            <input type="checkbox" id="non_smoking" name="non_smoking">
+                            <label for="non_smoking">Non-Smoking</label>
+                        
+                            <br>
+                            
+                            <input type="checkbox" id="Internet" name="Internet">
+                            <label for="Internet">Internet</label>
+                            
+                            <br>
+                            
+                            <input type="checkbox" id="Firm Matress" name="Firm Matress">
+                            <label for="Firm Matress">Firm Matress</label>
+                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-weight: bold;">Mods of Payment</td>
+                        <td>
+                            <input type="radio" id="Cash" name="Preference">
+                            <label for="Preference">Cash</label>
+                            
+                            <input type="radio" id="Check" name="Preference">
+                            <label for="Preference">Check</label>
+                            
+                            <br>
+                            
+                            <input type="radio" id="Credit Card" name="Preference" >
+                            <label for="Preference">Credit Card</label>
+                            
+                            <select name="Select Card">
+                                <option>Select Card</option>
+                                <option value="Credit Card">Credit Card</option>
+                                <option value="Debit Card">Debit Card</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="align-items: center;">
+                        <center>
+                            <input type="submit" value="Send Data">
+                        </center>
+                    </td> 
+                </tr>
+                
+            </table>
+            </form>
+
+
+</center>
+            </div>
+<br>
+
+        </div>
+
+    
+</body>
+</html>
